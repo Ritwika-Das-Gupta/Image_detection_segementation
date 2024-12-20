@@ -139,3 +139,8 @@ Please note that this application is not designed or tested for production use. 
 Contributors and users are welcome to explore, learn from, and build upon this project for educational purposes.
 
 ### Hit star ⭐ if you like this repo!!!
+
+## Contributors
+- **Asmita Mondal (2348018)**
+- **Ritwika Das Gupta (2348049)**
+- **Swarnashish Banerjee (2348066)**
