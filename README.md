@@ -7,7 +7,7 @@ This repository is an extensive open-source project showcasing the seamless inte
 For a deeper dive into the implementation, check out my three-part blog series on [Medium](https://medium.com/@mycodingmantras), where I detail the [step-by-step process of creating this web application](https://medium.com/@mycodingmantras/building-a-real-time-object-detection-and-tracking-app-with-yolov8-and-streamlit-part-1-30c56f5eb956).
 
 
-## <span style="color:deepskyblue">WebApp Demo on Streamlit Server</span>
+## <span style="color:deepskyblue"> `WebApp Demo on Streamlit Server` </span>
 
 Thank you team [Streamlit](<https://github.com/streamlit/streamlit>) for the community support for the cloud upload. 
 
@@ -17,30 +17,30 @@ This app is up and running on Streamlit cloud server!!! You can check the demo o
 **Note**: In the demo, Due to non-availability of GPUs, you may encounter slow video inferencing.
 
 
-## <span style="color:deepskyblue"> Tracking With Object Detection Demo</span>
+## <span style="color:deepskyblue"> `Tracking With Object Detection Demo` </span>
 
 <https://user-images.githubusercontent.com/104087274/234874398-75248e8c-6965-4c91-9176-622509f0ad86.mov>
 
-## Overview
+## `Overview`
 
 <https://github.com/user-attachments/assets/85df351a-371c-47e0-91a0-a816cf468d19.mov>
 
 
-## Demo Pics
+## `Demo Pics`
 
-### Home page
+### `Home page`
 
 <img src="https://github.com/CodingMantras/yolov8-streamlit-detection-tracking/blob/master/assets/pic1.png" >
 
-### Page after uploading an image and object detection
+### `Page after uploading an image and object detection`
 
 <img src="https://github.com/CodingMantras/yolov8-streamlit-detection-tracking/blob/master/assets/pic3.png" >
 
-### Segmentation task on image
+### `Segmentation task on image`
 
 <img src="https://github.com/CodingMantras/yolov8-streamlit-detection-tracking/blob/master/assets/segmentation.png" >
 
-## Requirements
+## `Requirements`
 
 Python 3.6+
 YOLOv8
@@ -50,19 +50,19 @@ Streamlit
 pip install ultralytics streamlit pytube
 ```
 
-## Installation
+## `Installation`
 
 - Clone the repository: git clone <https://github.com/CodingMantras/yolov8-streamlit-detection-tracking.git>
 - Change to the repository directory: `cd yolov8-streamlit-detection-tracking`
 - Create `weights`, `videos`, and `images` directories inside the project.
 - Download the pre-trained YOLOv8 weights from (<https://github.com/ultralytics/assets/releases/download/v0.0.0/yolov8n.pt>) and save them to the `weights` directory in the same project.
 
-## Usage
+## `Usage`
 
 - Run the app with the following command: `streamlit run app.py`
 - The app should open in a new browser window.
 
-### ML Model Config
+### `ML Model Config`
 
 - Select task (Detection, Segmentation)
 - Select model confidence
@@ -70,7 +70,7 @@ pip install ultralytics streamlit pytube
 
 One the model config is done, select a source.
 
-### Detection on images
+### `Detection on images`
 
 - The default image with its objects-detected image is displayed on the main page.
 - Select a source. (radio button selection `Image`).
@@ -78,7 +78,7 @@ One the model config is done, select a source.
 - Click the "Detect Objects" button to run the object detection algorithm on the uploaded image with the selected confidence threshold.
 - The resulting image with objects detected will be displayed on the page. Click the "Download Image" button to download the image.("If save image to download" is selected)
 
-## Detection in Videos
+## `Detection in Videos`
 
 - Create a folder with name `videos` in the same directory
 - Dump your videos in this folder
@@ -108,12 +108,12 @@ VIDEOS_DICT = {
 
 - Click on `Detect Video Objects` button and the selected task (detection/segmentation) will start on the selected video.
 
-### Detection on RTSP
+### `Detection on RTSP`
 
 - Select the RTSP stream button
 - Enter the rtsp url inside the textbox and hit `Detect Objects` button
 
-### Detection on YouTube Video URL
+### `Detection on YouTube Video URL`
 
 - Select the source as YouTube
 - Copy paste the url inside the text box.
@@ -121,11 +121,11 @@ VIDEOS_DICT = {
 
 <https://user-images.githubusercontent.com/104087274/226178296-684ad72a-fe5f-4589-b668-95c835cd8d8a.mov>
 
-## Acknowledgements
+## `Acknowledgements`
 
 This app uses [YOLOv8](<https://github.com/ultralytics/ultralytics>) for object detection algorithm and [Streamlit](<https://github.com/streamlit/streamlit>) library for the user interface.
 
-### Disclaimer
+### `Disclaimer`
 
 This project is intended as a learning exercise and demonstration of integrating various technologies, including:
 
@@ -138,9 +138,7 @@ Please note that this application is not designed or tested for production use. 
 
 Contributors and users are welcome to explore, learn from, and build upon this project for educational purposes.
 
-### Hit star ⭐ if you like this repo!!!
-
-## Contributors
+## `Contributors`
 - **Asmita Mondal (2348018)**
 - **Ritwika Das Gupta (2348049)**
 - **Swarnashish Banerjee (2348066)**
